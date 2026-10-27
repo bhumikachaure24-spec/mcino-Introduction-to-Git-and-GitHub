@@ -1,0 +1,18 @@
+BHUMIKA CHAURE@LAPTOP-8F309NK6 MINGW64 ~
+$ printf '%s\n' '$ curl https://api.github.com/repos/bhumikachaure24-spec/mcino-Introduction-to-Git-and-GitHub' > forked-repo && curl https://api.github.com/repos/bhumikachaure24-spec/mcino-Introduction-to-Git-and-GitHub | grep -E '"full_name"|"fork"|"parent"|"html_url"' >> forked-repo && cat forked-repo
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+100  23837 100  23837   0      0  36547      0                              0
+$ curl https://api.github.com/repos/bhumikachaure24-spec/mcino-Introduction-to-Git-and-GitHub
+  "full_name": "bhumikachaure24-spec/mcino-Introduction-to-Git-and-GitHub",
+    "html_url": "https://github.com/bhumikachaure24-spec",
+  "html_url": "https://github.com/bhumikachaure24-spec/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+      "html_url": "https://github.com/ibm-developer-skills-network",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "fork": false,
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+      "html_url": "https://github.com/ibm-developer-skills-network",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
